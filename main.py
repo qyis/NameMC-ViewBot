@@ -1,4 +1,5 @@
 #imports all the modules that we will need
+import math
 from subprocess import call
 import sys
 from sys import platform
@@ -65,18 +66,17 @@ while name_input:
         else:
             pass
         
-        #tries to load user number code
-        try:
-            #prints text to let users know that its not really needed
-            print(colored("Press enter for 1 (default) as user number", "magenta"))
-            #user number input
-            usernumber = input(f"[{colored('+', 'green')}] User number incase needed: ")
-            #if user presses enter (skips)
-            if usernumber == "":
-                usernameid = None
-            #if user enters anything else
-            else:
-                pass
+        #prints text to let users know that its not really needed
+        print(colored("Press enter for 1 (default) as user number", "magenta"))
+        #user number input
+        usernumber = input(f"[{colored('+', 'green')}] User number incase needed: ")
+        #if user presses enter (skips)
+        if usernumber == "":
+            usernameid = None
+        #if user enters anything else
+        else:
+            pass
+        
         #defines proxy
         proxy = collector.get_proxy()
         port = proxy[1]
