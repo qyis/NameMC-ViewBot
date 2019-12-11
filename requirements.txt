@@ -1,0 +1,6 @@
+asyncio
+requests
+termcolor
+colorama
+proxyscrape
+fake_useragent
