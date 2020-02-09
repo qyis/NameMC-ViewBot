@@ -21,7 +21,7 @@ collector = create_collector('my-collector', 'https')
 init()
 
 #Sets console title
-sys.stdout.write("\x1b]2;NameMC ViewBot by Aldas\x07")
+sys.stdout.write("\x1b]2;NameMC ViewBot by Nqko\x07")
 
 #clears terminal by using command in the shell
 def clear():
