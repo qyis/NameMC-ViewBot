@@ -3,4 +3,4 @@ requests
 termcolor
 colorama
 proxyscrape
-fake_useragent
+fake-useragent
